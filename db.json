@@ -63,18 +63,6 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/thumbnail.png"
     },
     {
-      "title": "Sofa",
-      "category": "furniture",
-      "price": "1000",
-      "id": "12"
-    },
-    {
-      "title": "Bedside Table African ",
-      "category": "furniture",
-      "price": 299.99,
-      "id": "13"
-    },
-    {
       "id": "14",
       "title": "Knoll Saarinen Executive Conference Chair",
       "description": "The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.",
@@ -1073,6 +1061,13 @@
         "https://cdn.dummyjson.com/products/images/groceries/Kiwi/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Kiwi/thumbnail.png"
+    },
+    {
+      "id": "506e",
+      "title": "add",
+      "category": "image",
+      "price": "660",
+      "thumbnail": "https://i.pinimg.com/736x/c8/59/72/c8597269752fd834d4f71ceaac6642fb.jpg"
     }
   ]
 }

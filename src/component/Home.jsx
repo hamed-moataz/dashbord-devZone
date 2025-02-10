@@ -82,11 +82,11 @@ const Home = () => {
         {data.map((item) => (
           <Col xs lg="4" key={item.id}>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={item.thumbnail} alt={item.title} />
+              <Card.Img variant="top" src={item.thumbnail} alt={item.title} style={{width:'100%', height:'200px'}} />
               <Card.Body>
-                <Card.Title>{item.title}</Card.Title>
-                <Card.Text>{item.category}</Card.Text>
-                <Card.Text>{item.price}</Card.Text>
+                <Card.Title className="fw-bold">{item.title}</Card.Title>
+                <Card.Text className="fw-bolder">{item.category}</Card.Text>
+                <Card.Text className="fw-semibold">{item.price}</Card.Text>
                 <div className="row my-2 py-2">
                   <Button variant="info" onClick={()=> navigate(`/products/${item.id}`)}>Viwe</Button>
                   <Button
